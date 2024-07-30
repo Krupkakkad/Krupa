@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Swimming Pool</title>
+    <link rel="stylesheet" href="./About.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar"></div>
+    <header class="header">
+        <h1>About Us</h1>
+    </header>
+    <section class="introduction">
+        <h2>Welcome to Sardar Vallabhbhai Patel Swimming Pool</h2>
+        <p>At Sardar Vallabhbhai Patel Swimming Pool, our mission is to provide a welcoming and safe environment for swimmers of all ages and skill levels to learn, train, and enjoy the benefits of swimming. We are dedicated to promoting a healthy lifestyle through aquatic activities.</p>
+    </section>
+    <section class="history">
+        <h2>Our History</h2>
+        <p>Established in 2000, our facility has been a cornerstone of the community, offering top-notch swimming training and recreational services. Over the years, we have grown and evolved, continually improving our facilities and expanding our programs to meet the needs of our members.</p>
+    </section>
+    <section class="facilities">
+        <h2>Our Facilities</h2>
+        <ul>
+            <li>Olympic-sized pool: Perfect for competitive training and events.</li>
+            <li>Kids' pool: A safe and fun environment for our youngest swimmers.</li>
+            <li>Comfortable seats: Ensuring comfort to all audiance..</li>
+            <li>Modern locker rooms: Equipped with showers and secure storage.</li>
+        </ul>
+    </section>
+    <section class="programs">
+        <h2>Programs and Classes</h2>
+        <ul>
+            <li>Beginner Classes: For those new to swimming, focusing on basic skills and water safety.</li>
+            <li>Advanced Training: For competitive swimmers looking to enhance their techniques.</li>
+            <li>Aqua Aerobics: A fun way to stay fit and improve cardiovascular health.</li>
+            <li>Private Lessons: Personalized instruction to meet individual goals.</li>
+        </ul>
+    </section>
+    <section class="instructors">
+        <h2>Meet Our Instructors</h2>
+        <p>Our team of certified and experienced instructors is passionate about teaching and helping each swimmer achieve their best. With a mix of former competitive swimmers and dedicated coaches, our instructors bring a wealth of knowledge and enthusiasm to every class.</p>
+    </section>
+    <section class="safety">
+        <h2>Safety and Hygiene</h2>
+        <p>We prioritize the safety and well-being of our members. Our facility is regularly cleaned and maintained to the highest standards. Lifeguards are always on duty during pool hours, and we follow stringent water quality protocols to ensure a safe swimming environment.</p>
+    </section>
+    <section class="Reviews">
+        <h2>Reviews</h2>
+        <blockquote>
+            “Learning to swim at Sardar Vallabhbhai Patel Swimming Pool has been an incredible experience for my children. The instructors are patient and professional, and the facility is top-notch.” – Parent 
+        </blockquote>
+        <blockquote>
+            “Thanks to the dedicated coaching staff, I have improved my swimming technique and gained confidence in the water. Highly recommend!” – Swimmer 
+        </blockquote>
+    </section>
+   
+    <footer class="footer">
+        <p>&copy; 2024 Sardar Vallabhbhai Patel Swimming Pool. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript to include the navbar
+        fetch('nav.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+          });
+      </script>
+</body>
+</html>

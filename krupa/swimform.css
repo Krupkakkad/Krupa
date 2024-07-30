@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background-color: #f8f9fa;
+    margin: 0;
+    background-image: url('./img/water.webp');
+}
+.container {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -92px;
+    border: 1px solid #0f0f0f;
+}
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    
+section.space{
+    padding-top: 6cm;
+    width: 500px;
+    padding-bottom: 0.5cm;
+  
+
+}
+.btn-primary {
+    background-color: #0077b6;
+    color: #ffffff; /* Ensure text color is white */
+    
+}
+
+.btn-primary:hover {
+    background-color: #005f8a;
+    padding-right: 2px;
+}
+
+.w-100 {
+    width: 100%;
+    padding-right: 2px;
+}

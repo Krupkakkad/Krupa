@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    width: 80%;
+    margin: 126px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100pxpx;
+}
+
+h1, h2 {
+    color: #0073e6;
+}
+
+.contact-info, .social-media, .faq, .map {
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.map iframe {
+    width: 100%;
+    border: 0;
+}

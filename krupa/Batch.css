@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('./img/water.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 70px; /* Ensure space between navbar and content */
+    font-family: Arial, sans-serif;
+}
+.navbar-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin-top: 20px;
+   
+}
+.info-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+.batch-info p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+.batch-info p b {
+    color: #007bff;
+}

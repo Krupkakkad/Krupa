@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swimming Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="./swimform.css">
+</head>
+<body>
+  <div id="navbar"></div>
+  <section class="space">
+    <div class="container">
+      
+      
+        <h2 class="form-header">Swimming Form</h2>
+        <form action="/action_page.php">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+            <div class="mb-3">
+              <label for="birthday" class="form-label">Birthday:</label>
+              <input type="date" class="form-control" id="birthday" name="birthday" onchange="calculateAge()">
+          </div>
+          <div class="mb-3">
+              <label for="age" class="form-label">Select your Age:</label>
+              <input type="text" class="form-control" id="age" name="age" readonly>
+            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender:</label>
+                <select class="form-control" id="gender" name="gender" onchange="updateBatchTimings()">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="batch" class="form-label">Batch Timing:</label>
+                <select class="form-control" id="batch" name="batch">
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <label for="Adhar" class="form-label">Adharcard No:</label>
+                <input type="text" class="form-control" id="Adhar" placeholder="Enter Adhar no" name="Adhar">
+            </div>
+
+            <div class="mb-3">
+                <label for="Mobile" class="form-label">Mobile No:</label>
+                <input type="text" class="form-control" id="mobileNumber" placeholder="Enter Mobile no" name="Mobile">
+            </div>
+
+            <div class="mb-3">
+                <label for="experience" class="form-label">Experience in swimming:</label>
+                <input type="range" class="form-range" id="experience" name="experience">
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="remember" name="remember">
+                <label class="form-check-label" for="remember">Remember me</label>
+                <br>
+                <div class="form-container">
+                    <form id="submissionForm">
+                        <button type="button" class="btn btn-primary w-100" id="submitButton">Submit</button>
+                    </form>
+            
+      </div>
+    </section>
+      
+      <script src="./swimform.js"> </script>
+    
+</body>
+</html>
